@@ -1,0 +1,28 @@
+.array-container { 
+  position: absolute;
+  /* left: 100px; */
+  justify-items: middle;
+}
+
+.array-bar {
+  width: 10px;
+  background-color: orangered;
+  display: inline-block;
+  margin: 0 2px;
+  transition: height 0.3s ease-in-out;  
+
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sorted {
+  background-color: green !important;
+}
+
+.comparing {
+  background-color: red !important;
+}
+
+.pivot {
+  background-color: orange !important;
+}
