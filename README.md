@@ -1,12 +1,70 @@
-# React + Vite
+# Sorting Visualizer 🧮✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based sorting algorithm visualizer built with **React.js** and **Tailwind CSS**. This project demonstrates how various sorting algorithms work through animated bars and smooth transitions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+[🔗 Click here to view the live project](#)  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Screenshot (16)](https://github.com/user-attachments/assets/f96d8c28-2b58-4a7c-8e99-f558b7b86b64)
+
+
+---
+
+## 🚀 Project Phases
+
+### 📌 Phase 1: Project Setup
+
+- Initialized a new React project using Vite.
+- Installed necessary dependencies:
+  - `React`, `Tailwind CSS`
+- Set up project structure with reusable components.
+- Configured Tailwind for styling consistency.
+
+### 🎨 Phase 2: UI Design
+
+- Designed the visual structure of the bar chart.
+- Created a responsive layout using Flexbox and Tailwind classes.
+- Added a dark/light theme toggle (if applicable).
+- Ensured mobile responsiveness and accessibility.
+
+### 🧠 Phase 3: Algorithm Logic Implementation
+
+- Implemented popular sorting algorithms:
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+- Separated logic into reusable utility functions.
+- Ensured all algorithms work correctly on sample arrays.
+
+### 🎬 Phase 4: Visualization & Animation
+
+- Animated the sorting steps using:
+  - Color changes
+  - Height transitions
+- Added delay between steps using `setTimeout` to simulate sorting progress.
+- Provided clear visual cues for comparisons, swaps, and sorted positions.
+
+### 🧰 Phase 5: Interactivity & Controls
+
+- Added user controls:
+  - Array size slider
+  - Speed control
+  - Shuffle button
+  - Dropdown for algorithm selection
+  - Start Sorting button
+- Disabled controls during sorting to prevent conflict.
+
+### 🧼 Phase 6: Optimization & Final Touches
+
+- Refactored code for readability and scalability.
+- Handled edge cases (e.g., sorting empty or single-element arrays).
+- Added comments and cleaned up unused code.
+- Deployed the project using GitHub Pages / Vercel / Netlify.
+
+---
+
