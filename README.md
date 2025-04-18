@@ -1,6 +1,6 @@
 # Sort Flow 🧮✨
 
-The **Sort Flow** is a sorting algorithm visualizer built with **React.js** and **Tailwind CSS**. This project demonstrates how various sorting algorithms work through animated bars and smooth transitions.
+The **Sort Flow** is a web-based sorting algorithm visualizer built with **React.js** and **Tailwind CSS**. This project demonstrates how various sorting algorithms work through animated bars and smooth transitions.
 
 ---
 
